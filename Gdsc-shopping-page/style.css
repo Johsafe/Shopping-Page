@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.header{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    top: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    position: fixed;
+}
+
+.logo img{
+    width: 120px;
+}
+.links{
+    display: flex;
+}
+.links a{
+
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.btn button{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    padding: 10px 40px;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 10px;
+ 
+}
+.home{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin: 40px;
+    background-color: green;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 120px;
+}
+.text{
+    width: 400px;
+}
+.text h1{
+    font-size: 60px;
+    color: white;
+
+}
+.text p{
+    color: white;
+    font-size: 20px;
+}
+
+.image img{
+    width: 400px;
+}
+.text button{
+    cursor:pointer;
+    width: 200px;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 10px;
+    padding: 10px 40px;
+    margin-top: 10px;
+}
+
+/* featured */
+.featured{
+    margin: 40px;
+}
+.featured .title{
+
+    display: flex;
+    justify-content: space-between;
+    font-size: 35px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+
+
+}
+.featured .title a{
+    text-decoration: none;
+}
+
+.featured .card{
+    width: 400px;
+    padding: 0;
+    border-radius:  20px 0 20px 0;
+    box-shadow: 2px 0 2px 0;
+    margin-top: 15px;
+}
+.card .itemImg img{
+    width: 100%;
+    margin-bottom: 0;
+    height :150px;
+
+}
+.featured .card .content{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.featured .card  button{
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: green;
+    border-radius:  10px 0 20px 0;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.featured .product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
